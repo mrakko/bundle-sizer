@@ -36,4 +36,4 @@ jobs:
 
       - name: Inspect bundle with Tuist
         run: |
-          tuist bundle inspect build/BundlerSizer.xcarchive
+          tuist inspect bundle build/BundlerSizer.xcarchive
