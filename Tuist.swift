@@ -1,3 +1,3 @@
 import ProjectDescription
 
-let tuist = Tuist(fullHandle: "tesco/BundlerSizer", project: .xcode())
+let tuist = Tuist(fullHandle: "marktajti/BundlerSizer", project: .xcode())
