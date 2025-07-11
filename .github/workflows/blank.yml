@@ -38,4 +38,4 @@ jobs:
         env:
           TUIST_CONFIG_TOKEN: ${{ secrets.TUIST_CONFIG_TOKEN }}
         run: |
-          tuist inspect bundle build/BundlerSizer.xcarchive
+          tuist inspect bundle build/BundlerSizer.xcarchive --verbose
