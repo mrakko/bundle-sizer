@@ -35,5 +35,7 @@ jobs:
           | xcpretty
 
       - name: Inspect bundle with Tuist
+        env:
+          TUIST_CONFIG_TOKEN: ${{ secrets.TUIST_CONFIG_TOKEN }}
         run: |
           tuist inspect bundle build/BundlerSizer.xcarchive
